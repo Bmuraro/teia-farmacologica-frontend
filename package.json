@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "cytoscape": "^3.33.4",
+    "sass": "^1.100.0"
+  },
+  "devDependencies": {
+    "@types/cytoscape": "^3.31.0"
+  }
+}
