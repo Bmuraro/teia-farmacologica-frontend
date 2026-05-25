@@ -4,7 +4,7 @@ import axios from 'axios';
 const BASE_URL = import.meta.env.VITE_BASE_URL || 'https://teia-farmacologica-backend-production.up.railway.app';
 
 export const api = axios.create({
-    baseURL: BASE_URL
+    baseURL: import.meta.env.VITE_API_URL + '/api'
 });
 
 export const interacaoService = {
