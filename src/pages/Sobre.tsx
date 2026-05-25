@@ -4,7 +4,7 @@ import { Monitor, Server, Database, Network, Send } from 'lucide-react';
 // Importação das imagens locais
 import fotoMembro1 from '../assets/Bruno.jpg';
 import fotoMembro2 from '../assets/Mikhael.png';
-import fotoMembro3 from '../assets/Marcelo.png';
+import fotoMembro3 from '../assets/Marcelo.jpg';
 
 export function Sobre() {
   const [techAtiva, setTechAtiva] = useState<string | null>(null);
