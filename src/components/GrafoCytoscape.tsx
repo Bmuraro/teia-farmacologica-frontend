@@ -124,7 +124,7 @@ export function GrafoCytoscape({ dados }: GrafoProps) {
         concentric: function (node) {
           return node.degree();
         },
-        levelWidth: function (nodes) {
+        levelWidth: function (_nodes) {
           return 1;
         }
       }

@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { GrafoCytoscape } from '../components/GrafoCytoscape';
 import { interacaoService } from '../services/api';
 import type { GrafoDTO } from '../types/grafo';
-import { Beaker, Plus, Trash2, Activity, Search, Info, FileText } from 'lucide-react';
+import { Beaker, Plus, Trash2, Activity, Search, Info } from 'lucide-react';
 
 export function Laboratorio() {
   const [selecionados, setSelecionados] = useState<string[]>([]);
